@@ -3,12 +3,17 @@
 # Create a similar script to test your own custom expressions.
 
 
+PACKAGE_URL = 'git+https://github.com/luaithrenn/luproj.git'
+#URL of the package repository.
+
 # Import Python libraries and packages.
 import pandas as pd
 import numpy as np
 import datetime as dt
 import re
 from IPython.display import display
+
+url = PACKAGE_URL
 
 # Define the data type of each data item.
 numeric_data_items = ['outer_humidity','inner_humidity']
